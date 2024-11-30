@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", async function() {
   const grid = document.querySelector(".grid");
   const currentDate = new Date();
   var parameter = 0;
-  if (currentDate.getMonth() + 1 === 11) {
+  if (currentDate.getMonth() + 1 === 12) {
     parameter = parseInt(currentDate.getDate());
 
     //parameter = 17;
